@@ -1,0 +1,43 @@
+body,
+html {
+    background-color: #eeeeee;
+}
+
+.login {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 0;
+}
+
+.login__item {
+    font-size: 20px;
+}
+
+.login__group {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.login__group input {
+    width: 250px;
+}
+
+.button {
+    margin-bottom: 40px;
+}
+
+.button__ttl {
+    padding: 5px 20px;
+}
+
+.error{
+    color: #ff0000;
+    margin-bottom: 20px;
+}

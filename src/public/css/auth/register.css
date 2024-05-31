@@ -1,0 +1,42 @@
+body,
+html {
+    background-color: #eeeeee;
+}
+
+.register {
+    max-width: 500px;
+    margin: 120px auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.register__item {
+    font-size: 20px;
+}
+
+.register__group {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.register__group input {
+    width: 250px;
+}
+
+.button {
+    margin-bottom: 40px;
+}
+
+.button__ttl {
+    padding: 5px 20px;
+}
+
+.error {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
