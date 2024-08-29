@@ -3,22 +3,53 @@ html {
     background-color: #eeeeee;
 }
 
+.header {
+    background-color: #000;
+}
+
+.header__item {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__ttl {
+    display: flex;
+    align-items: center;
+}
+
+.icon-white {
+    color: #00FFFF;
+}
+
+.header__title {
+    font-size: 25px;
+    color: #00FFFF;
+    padding: 0 10px;
+}
+
 .register {
     max-width: 500px;
     margin: 120px auto;
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px 0;
+}
+
+.register__title {
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0;
 }
 
 .register__item {
-    font-size: 20px;
+    font-size: 18px;
+    color: #00FFFF;
 }
+
 
 .register__group {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -29,11 +60,19 @@ html {
 }
 
 .button {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .button__ttl {
     padding: 5px 20px;
+    background-color: #000;
+    border-radius: 3px;
+    border: none;
+    color: #00FFFF;
+}
+
+.link {
+    padding-bottom: 20px;
 }
 
 .error {

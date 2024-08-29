@@ -6,8 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/auth/login.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__item">
+            <div class="header__ttl">
+                <i class="fas fa-feather-alt icon-white"></i>
+                <p class="header__title">yfui</p>
+                <i class="fas fa-feather-alt icon-white"></i>
+            </div>
+        </div>
+    </header>
     <div class="login">
         <div class="login__ttl">
             <div class="login__title">
@@ -34,7 +44,9 @@
                         <button class="button__ttl">ログイン</button>
                     </div>
                 </form>
-                <a class="register__url" href="{{ route('register') }}">新規登録へ</a>
+                <div class="link">
+                    <a class="register__url" href="{{ route('register') }}">新規登録へ</a>
+                </div>
             </div>
         </div>
     </div>

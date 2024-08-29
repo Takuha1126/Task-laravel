@@ -34,4 +34,21 @@ class TaskController extends Controller
 
         return redirect()->back()->with('success', 'タスクを削除しました');
     }
+
+    public function edit($id)
+{
+    $task = Task::findOrFail($id);
+    return view('edit', compact('task'));
+}
+
+public function update(Request $request, $id)
+{
+    $task = Task::findOrFail($id);
+    $task->title = $request->input('title');
+    $task->date = $request->input('date');
+    $task->detail = $request->input('detail');
+    $task->save();
+
+    return redirect()->route('task.index')->with('message', 'タスクが更新されました');
+}
 }

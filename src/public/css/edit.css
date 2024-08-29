@@ -1,0 +1,89 @@
+body,
+html {
+    background-color: #eeeeee;
+}
+
+.header {
+    border-bottom: 1px solid #aaaaaa;
+    background-color: black;
+}
+
+.header__item {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__ttl {
+    display: flex;
+    align-items: center;
+}
+
+.icon-white {
+    color: #00FFFF;
+}
+
+.header__title {
+    font-size: 25px;
+    color: #00FFFF;
+    padding: 0 10px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container__title {
+    font-size: 23px;
+}
+
+.container__item {
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.form-group input {
+    width: 400px;
+    padding-left: 10px;
+}
+
+.form-group textarea {
+    width: 400px;
+    padding: 5px;
+    height: 150px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.edit__button {
+    padding: 5px 20px;
+}
+
+.edit__button {
+    margin-right: 20px;
+    border: none;
+    font-size: 20px;
+    color: #136FFF;
+}
+
+.cancel__link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ff0000;
+}

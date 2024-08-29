@@ -3,6 +3,30 @@ html {
     background-color: #eeeeee;
 }
 
+.header {
+    background-color: #000;
+}
+
+.header__item {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__ttl {
+    display: flex;
+    align-items: center;
+}
+
+.icon-white {
+    color: #00FFFF;
+}
+
+.header__title {
+    font-size: 25px;
+    color: #00FFFF;
+    padding: 0 10px;
+}
+
 .login {
     max-width: 500px;
     margin: 0 auto;
@@ -10,16 +34,22 @@ html {
     margin-top: 150px;
     background-color: #fff;
     border-radius: 5px;
-    padding: 30px 0;
+}
+
+.login__title {
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0;
 }
 
 .login__item {
-    font-size: 20px;
+    font-size: 18px;
+    color: #00FFFF;
 }
 
 .login__group {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -35,6 +65,14 @@ html {
 
 .button__ttl {
     padding: 5px 20px;
+    background-color: #000;
+    border-radius: 3px;
+    border: none;
+    color: #00FFFF;
+}
+
+.link {
+    padding-bottom: 20px;
 }
 
 .error{

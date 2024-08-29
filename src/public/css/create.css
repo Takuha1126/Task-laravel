@@ -16,11 +16,21 @@ html {
     align-items: center;
 }
 
+.header__ttl {
+    display: flex;
+    align-items: center;
+}
+
+.icon-white {
+    color: #00FFFF;
+}
 
 .header__title {
     font-size: 25px;
     color: #00FFFF;
+    padding: 0 10px;
 }
+
 
 .nav {
     display: flex;

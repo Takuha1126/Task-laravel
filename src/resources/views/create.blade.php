@@ -6,12 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/create.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <div class="header__item">
             <div class="header__ttl">
+                <i class="fas fa-feather-alt icon-white"></i>
                 <p class="header__title">yfui</p>
+                <i class="fas fa-feather-alt icon-white"></i>
             </div>
             <nav class="nav">
                 <div class="nav__ttl">
