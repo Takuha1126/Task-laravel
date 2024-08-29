@@ -11,4 +11,34 @@ task管理アプリ
 Laravel,php
 
 #開発環境構築
+開発環境を以下のgithubURLからクローンする
+git clone https://github.com/Takuha1126/Task-laravel.git
+
+ここではTask-laravelでする
+cd　Task-laravel
+
+Dockerで開発環境の構築
+docker-compose up -d --build
+
+Laravelパッケージをインストール
+docker-compose exec php bash
+
+composer install
+
+.envの作成
+cp .env.example .env
+
+.envを書き換える
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+
+キーを作成
+php artisan key:generate
+
+テーブルの作成
+php artisan migrate:refresh
 
