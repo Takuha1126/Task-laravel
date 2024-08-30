@@ -10,8 +10,8 @@ use App\Http\Requests\TaskRequest;
 class TaskController extends Controller
 {
     public function index() {
-        $tasks = Task::all();
         $user = Auth::user();
+        $tasks = Task::where('user_id',$user->id)->get();
         return view('index',compact('tasks','user'));
     }
 
