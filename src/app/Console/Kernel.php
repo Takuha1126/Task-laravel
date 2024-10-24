@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('tasks:delete-expired')->daily();
-        $schedule->command('send:task-reminders')->dailyAt('15:54');
+        $schedule->command('send:task-reminders')->dailyAt('08:00');
     }
 
     /**
